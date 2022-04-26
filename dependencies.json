@@ -1,0 +1,18 @@
+{
+  "namespaces": [
+    "player_action"
+  ],
+  "dependencies": [
+    {
+      "name": "Lantern Load",
+      "url": "https://github.com/LanternMC/load"
+    }
+  ],
+  "append_function_tags": [
+    {
+      "tag": "load:load",
+      "value": "#player_action:load"
+    }
+  ],
+  "version": "v1.0"
+}
