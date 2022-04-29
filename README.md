@@ -129,7 +129,8 @@ but can also be caused by placing an item on a campfire for example.
   function #energy:v1/interact_smoker
   function #energy:v1/interact_stonecutter
   function #energy:v1/interact_trapped_chest
-  
+```
+
 ## How to use
 1. Install [LanternLoad](https://github.com/LanternMC/load) in your datapack
 2. Copy the `data/player_action` folder into your data pack
