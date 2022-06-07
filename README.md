@@ -75,23 +75,23 @@ Players will have these tags when activly performing the corresponding action:
 Functions tags are called by PlayerAction to inform you an event has happened. To use these calls, you must implement your desired actions in a function and add it to the target function tag list. Remember that function tag calls do not target a specific datapack, so you will need to verfiy the conditions are correct before applying actions (like check if a player is holding a special item when right clicking):
 
 ```
-function #energy:v1/died
+function #player_action:v1/died
   Triggers whenever a players dies.
   
-function #energy:v1/enchanted
+function #player_action:v1/enchanted
   Triggers whenever a player enchants an item.
   
-function #energy:v1/joined
+function #player_action:v1/joined
   Triggers whenever a player joins the world, either loading a world
   in single player or joining a multiplayer server.
   
 function #energy:v1/jumped
-  Triggers when a player jumps.
+  Triggers player_action a player jumps.
   
-function #energy:v1/left_click
+function #player_action:v1/left_click
   Triggers when a player left clicks while holding a click-detection enabled item (see NBT format).
   
-function #energy:v1/right_click
+function #player_action:v1/right_click
   Triggers when a player right clicks while holding a click-detection enabled item (see NBT format),
   or when they right click a Carrot on a Stick or Warped Fungus on a Stick.
 ```
