@@ -99,36 +99,36 @@ function #energy:v1/right_click
 ```
 The following tags trigger when a player interacts with a block. In most cases this means opening a GUI,
 but can also be caused by placing an item on a campfire for example.
-  function #energy:v1/interact_block
-  function #energy:v1/open_gui
+  function #player_action:v1/interact_block
+  function #player_action:v1/open_gui
   
-  function #energy:v1/interact_anvil
-  function #energy:v1/interact_barrel
-  function #energy:v1/interact_beacon
-  function #energy:v1/interact_blast_furnace
-  function #energy:v1/interact_brewingstand
-  function #energy:v1/interact_cake
-  function #energy:v1/interact_campfire (both types)
-  function #energy:v1/interact_cartography table
-  function #energy:v1/interact_cauldron
-  function #energy:v1/interact_chest
-  function #energy:v1/interact_crafting_table
-  function #energy:v1/interact_dispenser
-  function #energy:v1/interact_dropper
-  function #energy:v1/interact_enderchest
-  function #energy:v1/interact_flower_pot
-  function #energy:v1/interact_furnace
-  function #energy:v1/interact_grindstone
-  function #energy:v1/interact_hopper
-  function #energy:v1/interact_jukebox
-  function #energy:v1/interact_lectern
-  function #energy:v1/interact_loom
-  function #energy:v1/interact_noteblock
-  function #energy:v1/interact_shulker_box
-  function #energy:v1/interact_smithing_table
-  function #energy:v1/interact_smoker
-  function #energy:v1/interact_stonecutter
-  function #energy:v1/interact_trapped_chest
+  function #player_action:v1/interact_anvil
+  function #player_action:v1/interact_barrel
+  function #player_action:v1/interact_beacon
+  function #player_action:v1/interact_blast_furnace
+  function #player_action:v1/interact_brewingstand
+  function #player_action:v1/interact_cake
+  function #player_action:v1/interact_campfire (both types)
+  function #player_action:v1/interact_cartography table
+  function #player_action:v1/interact_cauldron
+  function #player_action:v1/interact_chest
+  function #player_action:v1/interact_crafting_table
+  function #player_action:v1/interact_dispenser
+  function #player_action:v1/interact_dropper
+  function #player_action:v1/interact_enderchest
+  function #player_action:v1/interact_flower_pot
+  function #player_action:v1/interact_furnace
+  function #player_action:v1/interact_grindstone
+  function #player_action:v1/interact_hopper
+  function #player_action:v1/interact_jukebox
+  function #player_action:v1/interact_lectern
+  function #player_action:v1/interact_loom
+  function #player_action:v1/interact_noteblock
+  function #player_action:v1/interact_shulker_box
+  function #player_action:v1/interact_smithing_table
+  function #player_action:v1/interact_smoker
+  function #player_action:v1/interact_stonecutter
+  function #player_action:v1/interact_trapped_chest
 ```
 
 ## How to use
