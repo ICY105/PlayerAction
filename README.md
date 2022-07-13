@@ -33,9 +33,9 @@ player_action.uuid.3
 ```
 
 ```
-player_action.uuid.x
-player_action.uuid.y
-player_action.uuid.z
+player_action.x
+player_action.y
+player_action.z
   These 3 scoreboards hold a players position, using a scale of x70
   (the largst possible withouth causing over/under flow). Do not modify these manually.
 ```
