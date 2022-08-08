@@ -6,6 +6,10 @@
     {
       "name": "Lantern Load",
       "url": "https://github.com/LanternMC/load"
+    },
+    {
+      "name": "Smithed Chunk",
+      "local": "SmithedChunk-Unofficial"
     }
   ],
   "append_function_tags": [
@@ -14,5 +18,5 @@
       "value": "#player_action:load"
     }
   ],
-  "version": "v1.0"
+  "version": "v1.1"
 }
