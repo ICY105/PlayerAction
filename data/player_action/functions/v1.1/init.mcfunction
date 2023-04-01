@@ -1,6 +1,6 @@
 
-schedule function player_action:v1.1/tick 100t
 schedule function player_action:v1.1/tick 5t
+schedule function player_action:v1.1/player/click_detection/tick_entities 100t
 data merge storage player_action:temp {list:[], obj:{}, var:""}
 
 # dummy
@@ -14,9 +14,6 @@ scoreboard objectives add player_action.uuid.3 dummy
 scoreboard objectives add player_action.x dummy
 scoreboard objectives add player_action.y dummy
 scoreboard objectives add player_action.z dummy
-
-team add player_action.no_push
-team modify player_action.no_push collisionRule never
 
 # movement
 scoreboard objectives add player_action.aviate minecraft.custom:minecraft.aviate_one_cm
