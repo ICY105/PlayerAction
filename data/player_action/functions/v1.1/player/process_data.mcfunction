@@ -5,17 +5,17 @@ execute if score @s player_action.fall matches 1.. run tag @s add player_action.
 execute if score @s player_action.climb matches 1.. run tag @s add player_action.climbing
 execute if score @s player_action.aviate matches 1.. run tag @s add player_action.elyra_flying
 
-execute if predicate player_action:v1.1/swimming run tag @s add player_action.swimming
-execute if predicate player_action:v1.1/sneaking run tag @s add player_action.sneaking
-execute if predicate player_action:v1.1/sprinting run tag @s add player_action.sprinting
-execute if predicate player_action:v1.1/riding_pig run tag @s add player_action.riding_pig
-execute if predicate player_action:v1.1/riding_boat run tag @s add player_action.riding_boat
-execute if predicate player_action:v1.1/riding_mule run tag @s add player_action.riding_mule
-execute if predicate player_action:v1.1/riding_llama run tag @s add player_action.riding_llama
-execute if predicate player_action:v1.1/riding_horse run tag @s add player_action.riding_horse
-execute if predicate player_action:v1.1/riding_donkey run tag @s add player_action.riding_donkey
-execute if predicate player_action:v1.1/riding_strider run tag @s add player_action.riding_strider
-execute if predicate player_action:v1.1/riding_minecart run tag @s add player_action.riding_minecart
+execute if predicate player_action:v1/swimming run tag @s add player_action.swimming
+execute if predicate player_action:v1/sneaking run tag @s add player_action.sneaking
+execute if predicate player_action:v1/sprinting run tag @s add player_action.sprinting
+execute if predicate player_action:v1/riding_pig run tag @s add player_action.riding_pig
+execute if predicate player_action:v1/riding_boat run tag @s add player_action.riding_boat
+execute if predicate player_action:v1/riding_mule run tag @s add player_action.riding_mule
+execute if predicate player_action:v1/riding_llama run tag @s add player_action.riding_llama
+execute if predicate player_action:v1/riding_horse run tag @s add player_action.riding_horse
+execute if predicate player_action:v1/riding_donkey run tag @s add player_action.riding_donkey
+execute if predicate player_action:v1/riding_strider run tag @s add player_action.riding_strider
+execute if predicate player_action:v1/riding_minecart run tag @s add player_action.riding_minecart
 
 execute if score @s player_action.death matches 1.. run function #player_action:v1/died
 execute if score @s player_action.enchant matches 1.. run function #player_action:v1/enchanted

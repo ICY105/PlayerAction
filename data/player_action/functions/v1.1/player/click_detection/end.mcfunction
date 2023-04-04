@@ -6,8 +6,8 @@ scoreboard players operation #uuid.2 player_action.data = @s player_action.uuid.
 scoreboard players operation #uuid.3 player_action.data = @s player_action.uuid.3
 
 # destroy entities
-execute as @e[type=minecraft:interaction,tag=player_action.click_entity,predicate=player_action:v1.1/equals_uuid] run tp @s ~ -300 ~
-execute as @e[type=minecraft:interaction,tag=player_action.click_entity,predicate=player_action:v1.1/equals_uuid] run kill @s
+execute as @e[type=minecraft:interaction,tag=player_action.click_entity,predicate=player_action:v1/equals_uuid] run tp @s ~ -300 ~
+execute as @e[type=minecraft:interaction,tag=player_action.click_entity,predicate=player_action:v1/equals_uuid] run kill @s
 
 # remove tag
 tag @s remove player_action.click_detection
