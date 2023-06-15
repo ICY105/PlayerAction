@@ -1,6 +1,6 @@
 # PlayerAction
-A Minecraft datapack library that wraps various player actions into selector and function tag calls. This library currently handles:
-* Right click detection using Villagers or COAS/WFOAS
+A Minecraft datapack library that wraps various player actions into selector and function tag calls. While the majority of these hooks are easy to implement, it may be convenient to abstract them behind this library. This library currently handles:
+* Right click detection using Interaction Entities or COAS/WFOAS
 * Interactioning with certain blocks
 * Interacting with certain entities
 * Detecting movement
