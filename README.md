@@ -13,7 +13,7 @@ These are NBT data specifications for items, storage, or entities that hold spec
 
 ```
 Items that should use Villager based click detection when held. Clicks are passed back by function tags.
-Item.tag{player_action:{click_detection:1b}}
+Item.components."minecraft:custom_data".player_action{click_detection:1b}
 ```
 
 ## Scoreboards
