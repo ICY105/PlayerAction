@@ -6,9 +6,6 @@
         "entity": {
           "type": "minecraft:interaction",
           "nbt": "{Tags:[\"player_action.click_entity\"]}"
-        },
-        "player": {
-          "nbt": "{Tags:[\"player_action.click_detection\"]}"
         }
       }
     }

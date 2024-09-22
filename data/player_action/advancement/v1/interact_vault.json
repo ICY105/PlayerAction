@@ -1,7 +1,7 @@
 {
   "criteria": {
     "interact_anvil": {
-      "trigger": "minecraft:default_block_use",
+      "trigger": "minecraft:item_used_on_block",
       "conditions": {
         "location": [
           {
@@ -9,7 +9,7 @@
             "predicate": {
               "block": {
                 "blocks": [
-                  "minecraft:loom"
+                  "minecraft:vault"
                 ]
               }
             }
@@ -19,6 +19,6 @@
 	  }
   },
   "rewards":{ 
-    "function":"player_action:v1/internal/interact_loom"
+    "function":"player_action:v1/internal/interact_vault"
   }
 }
