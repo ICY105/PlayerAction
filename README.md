@@ -1,20 +1,11 @@
 # PlayerAction
 A Minecraft datapack library that wraps various player actions into selector and function tag calls. While the majority of these hooks are easy to implement, it may be convenient to abstract them behind this library. This library currently handles:
-* Right click detection using Interaction Entities or COAS/WFOAS
 * Interactioning with certain blocks
 * Interacting with certain entities
 * Detecting movement
 * Detecting riding entities
 
 This is an embedded library, so you package it inside your datapack as opposed to having a separate download. Requires [LanternLoad](https://github.com/LanternMC/load) to operate.
-
-## NBT Format
-These are NBT data specifications for items, storage, or entities that hold special data.
-
-```
-Items that should use Villager based click detection when held. Clicks are passed back by function tags.
-Item.components."minecraft:custom_data".player_action{click_detection:1b}
-```
 
 ## Scoreboards
 These are scoreboard objectives used to represent a value of some kind.
@@ -87,13 +78,6 @@ function #player_action:v1/joined
   
 function #energy:v1/jumped
   Triggers player_action a player jumps.
-  
-function #player_action:v1/left_click
-  Triggers when a player left clicks while holding a click-detection enabled item (see NBT format).
-  
-function #player_action:v1/right_click
-  Triggers when a player right clicks while holding a click-detection enabled item (see NBT format),
-  or when they right click a Carrot on a Stick or Warped Fungus on a Stick.
 ```
 
 ```
