@@ -1,50 +1,29 @@
-[
-  {
-    "condition": "minecraft:value_check",
-    "value": 1,
-    "range": {
-      "min": {
-        "type": "minecraft:score",
-        "target": {
-          "type": "minecraft:fixed",
-          "name": "#player_action.major"
-        },
-        "score": "load.status",
-        "scale": 1
-      },
-      "max": {
-        "type": "minecraft:score",
-        "target": {
-          "type": "minecraft:fixed",
-          "name": "#player_action.major"
-        },
-        "score": "load.status",
-        "scale": 1
-      }
-    }
-  },
-  {
-    "condition": "minecraft:value_check",
-    "value": 7,
-    "range": {
-      "min": {
-        "type": "minecraft:score",
-        "target": {
-          "type": "minecraft:fixed",
-          "name": "#player_action.minor"
-        },
-        "score": "load.status",
-        "scale": 1
-      },
-      "max": {
-        "type": "minecraft:score",
-        "target": {
-          "type": "minecraft:fixed",
-          "name": "#player_action.minor"
-        },
-        "score": "load.status",
-        "scale": 1
-      }
-    }
-  }
-]
+{
+	"type": "minecraft:all_of",
+	"terms": [
+		{
+			"type": "minecraft:int_value_check",
+			"value": 1,
+			"test": {
+				"type": "minecraft:score",
+				"target": {
+					"type": "minecraft:fixed",
+					"name": "#player_action.major"
+				},
+				"score": "load.status"
+			}
+		},
+		{
+			"type": "minecraft:int_value_check",
+			"value": 7,
+			"test": {
+				"type": "minecraft:score",
+				"target": {
+					"type": "minecraft:fixed",
+					"name": "#player_action.minor"
+				},
+				"score": "load.status"
+			}
+		}
+	]
+}

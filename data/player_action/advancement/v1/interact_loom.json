@@ -3,20 +3,18 @@
     "interact_anvil": {
       "trigger": "minecraft:default_block_use",
       "conditions": {
-        "location": [
-          {
-            "condition": "minecraft:location_check",
-            "predicate": {
-              "block": {
-                "blocks": [
-                  "minecraft:loom"
-                ]
-              }
+        "location": {
+          "type": "minecraft:location_check",
+          "predicate": {
+            "block": {
+              "blocks": [
+                "minecraft:loom"
+              ]
             }
           }
-        ]
+        }
       }
-	  }
+    }
   },
   "rewards":{ 
     "function":"player_action:v1/internal/interact_loom"
